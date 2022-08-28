@@ -1,0 +1,20 @@
+﻿@model IskurGunlugu.Models.Category
+@{
+    ViewBag.Title = "CategoryDetail";
+}
+
+<h2>@Model.Name</h2>
+<hr />
+<div class="container">
+    <div class="row">
+        <div class="col-6">
+            <img src="~/Content/images/category/@Model.Image" width="100%" />
+        </div>
+        <div class="col-6">
+            <h3>@Model.Name</h3>
+            <hr />
+            <p>@Model.Description</p>
+        </div>
+    </div>
+</div>
+

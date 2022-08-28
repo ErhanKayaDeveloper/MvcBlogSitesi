@@ -1,0 +1,167 @@
+C:\Users\erhan.kaya\source\repos\IskurGunlugu\IskurGunlugu\bin\IskurGunlugu.dll.config
+C:\Users\erhan.kaya\source\repos\IskurGunlugu\IskurGunlugu\bin\IskurGunlugu.dll
+C:\Users\erhan.kaya\source\repos\IskurGunlugu\IskurGunlugu\bin\IskurGunlugu.pdb
+C:\Users\erhan.kaya\source\repos\IskurGunlugu\IskurGunlugu\bin\roslyn\csc.exe
+C:\Users\erhan.kaya\source\repos\IskurGunlugu\IskurGunlugu\bin\roslyn\csc.exe.config
+C:\Users\erhan.kaya\source\repos\IskurGunlugu\IskurGunlugu\bin\roslyn\csc.rsp
+C:\Users\erhan.kaya\source\repos\IskurGunlugu\IskurGunlugu\bin\roslyn\csi.exe
+C:\Users\erhan.kaya\source\repos\IskurGunlugu\IskurGunlugu\bin\roslyn\csi.exe.config
+C:\Users\erhan.kaya\source\repos\IskurGunlugu\IskurGunlugu\bin\roslyn\csi.rsp
+C:\Users\erhan.kaya\source\repos\IskurGunlugu\IskurGunlugu\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\erhan.kaya\source\repos\IskurGunlugu\IskurGunlugu\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\erhan.kaya\source\repos\IskurGunlugu\IskurGunlugu\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\erhan.kaya\source\repos\IskurGunlugu\IskurGunlugu\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\erhan.kaya\source\repos\IskurGunlugu\IskurGunlugu\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\erhan.kaya\source\repos\IskurGunlugu\IskurGunlugu\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\erhan.kaya\source\repos\IskurGunlugu\IskurGunlugu\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\erhan.kaya\source\repos\IskurGunlugu\IskurGunlugu\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\erhan.kaya\source\repos\IskurGunlugu\IskurGunlugu\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\erhan.kaya\source\repos\IskurGunlugu\IskurGunlugu\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\erhan.kaya\source\repos\IskurGunlugu\IskurGunlugu\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\erhan.kaya\source\repos\IskurGunlugu\IskurGunlugu\bin\roslyn\System.AppContext.dll
+C:\Users\erhan.kaya\source\repos\IskurGunlugu\IskurGunlugu\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\erhan.kaya\source\repos\IskurGunlugu\IskurGunlugu\bin\roslyn\System.Console.dll
+C:\Users\erhan.kaya\source\repos\IskurGunlugu\IskurGunlugu\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\erhan.kaya\source\repos\IskurGunlugu\IskurGunlugu\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\erhan.kaya\source\repos\IskurGunlugu\IskurGunlugu\bin\roslyn\System.IO.Compression.dll
+C:\Users\erhan.kaya\source\repos\IskurGunlugu\IskurGunlugu\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\erhan.kaya\source\repos\IskurGunlugu\IskurGunlugu\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\erhan.kaya\source\repos\IskurGunlugu\IskurGunlugu\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\erhan.kaya\source\repos\IskurGunlugu\IskurGunlugu\bin\roslyn\System.IO.Pipes.dll
+C:\Users\erhan.kaya\source\repos\IskurGunlugu\IskurGunlugu\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\erhan.kaya\source\repos\IskurGunlugu\IskurGunlugu\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\erhan.kaya\source\repos\IskurGunlugu\IskurGunlugu\bin\roslyn\System.Security.Claims.dll
+C:\Users\erhan.kaya\source\repos\IskurGunlugu\IskurGunlugu\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\erhan.kaya\source\repos\IskurGunlugu\IskurGunlugu\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\erhan.kaya\source\repos\IskurGunlugu\IskurGunlugu\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\erhan.kaya\source\repos\IskurGunlugu\IskurGunlugu\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\erhan.kaya\source\repos\IskurGunlugu\IskurGunlugu\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\erhan.kaya\source\repos\IskurGunlugu\IskurGunlugu\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\erhan.kaya\source\repos\IskurGunlugu\IskurGunlugu\bin\roslyn\System.ValueTuple.dll
+C:\Users\erhan.kaya\source\repos\IskurGunlugu\IskurGunlugu\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\erhan.kaya\source\repos\IskurGunlugu\IskurGunlugu\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\erhan.kaya\source\repos\IskurGunlugu\IskurGunlugu\bin\roslyn\System.Xml.XPath.dll
+C:\Users\erhan.kaya\source\repos\IskurGunlugu\IskurGunlugu\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\erhan.kaya\source\repos\IskurGunlugu\IskurGunlugu\bin\roslyn\vbc.exe
+C:\Users\erhan.kaya\source\repos\IskurGunlugu\IskurGunlugu\bin\roslyn\vbc.exe.config
+C:\Users\erhan.kaya\source\repos\IskurGunlugu\IskurGunlugu\bin\roslyn\vbc.rsp
+C:\Users\erhan.kaya\source\repos\IskurGunlugu\IskurGunlugu\bin\roslyn\VBCSCompiler.exe
+C:\Users\erhan.kaya\source\repos\IskurGunlugu\IskurGunlugu\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\erhan.kaya\source\repos\IskurGunlugu\IskurGunlugu\bin\Antlr3.Runtime.dll
+C:\Users\erhan.kaya\source\repos\IskurGunlugu\IskurGunlugu\bin\EntityFramework.dll
+C:\Users\erhan.kaya\source\repos\IskurGunlugu\IskurGunlugu\bin\EntityFramework.SqlServer.dll
+C:\Users\erhan.kaya\source\repos\IskurGunlugu\IskurGunlugu\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\erhan.kaya\source\repos\IskurGunlugu\IskurGunlugu\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\erhan.kaya\source\repos\IskurGunlugu\IskurGunlugu\bin\Newtonsoft.Json.dll
+C:\Users\erhan.kaya\source\repos\IskurGunlugu\IskurGunlugu\bin\System.Web.Helpers.dll
+C:\Users\erhan.kaya\source\repos\IskurGunlugu\IskurGunlugu\bin\System.Web.Mvc.dll
+C:\Users\erhan.kaya\source\repos\IskurGunlugu\IskurGunlugu\bin\System.Web.Optimization.dll
+C:\Users\erhan.kaya\source\repos\IskurGunlugu\IskurGunlugu\bin\System.Web.Razor.dll
+C:\Users\erhan.kaya\source\repos\IskurGunlugu\IskurGunlugu\bin\System.Web.WebPages.Deployment.dll
+C:\Users\erhan.kaya\source\repos\IskurGunlugu\IskurGunlugu\bin\System.Web.WebPages.dll
+C:\Users\erhan.kaya\source\repos\IskurGunlugu\IskurGunlugu\bin\System.Web.WebPages.Razor.dll
+C:\Users\erhan.kaya\source\repos\IskurGunlugu\IskurGunlugu\bin\WebGrease.dll
+C:\Users\erhan.kaya\source\repos\IskurGunlugu\IskurGunlugu\bin\EntityFramework.xml
+C:\Users\erhan.kaya\source\repos\IskurGunlugu\IskurGunlugu\bin\EntityFramework.SqlServer.xml
+C:\Users\erhan.kaya\source\repos\IskurGunlugu\IskurGunlugu\bin\System.Web.Helpers.xml
+C:\Users\erhan.kaya\source\repos\IskurGunlugu\IskurGunlugu\bin\System.Web.Mvc.xml
+C:\Users\erhan.kaya\source\repos\IskurGunlugu\IskurGunlugu\bin\System.Web.Optimization.xml
+C:\Users\erhan.kaya\source\repos\IskurGunlugu\IskurGunlugu\bin\System.Web.Razor.xml
+C:\Users\erhan.kaya\source\repos\IskurGunlugu\IskurGunlugu\bin\System.Web.WebPages.xml
+C:\Users\erhan.kaya\source\repos\IskurGunlugu\IskurGunlugu\bin\System.Web.WebPages.Deployment.xml
+C:\Users\erhan.kaya\source\repos\IskurGunlugu\IskurGunlugu\bin\System.Web.WebPages.Razor.xml
+C:\Users\erhan.kaya\source\repos\IskurGunlugu\IskurGunlugu\bin\Newtonsoft.Json.xml
+C:\Users\erhan.kaya\source\repos\IskurGunlugu\IskurGunlugu\bin\Antlr3.Runtime.pdb
+C:\Users\erhan.kaya\source\repos\IskurGunlugu\IskurGunlugu\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\erhan.kaya\source\repos\IskurGunlugu\IskurGunlugu\obj\Debug\IskurGunlugu.csprojAssemblyReference.cache
+C:\Users\erhan.kaya\source\repos\IskurGunlugu\IskurGunlugu\obj\Debug\IskurGunlugu.csproj.CoreCompileInputs.cache
+C:\Users\erhan.kaya\source\repos\IskurGunlugu\IskurGunlugu\obj\Debug\IskurGunlugu.csproj.CopyComplete
+C:\Users\erhan.kaya\source\repos\IskurGunlugu\IskurGunlugu\obj\Debug\IskurGunlugu.dll
+C:\Users\erhan.kaya\source\repos\IskurGunlugu\IskurGunlugu\obj\Debug\IskurGunlugu.pdb
+C:\Users\erhan.kaya\source\repos\IskurGunlugu\IskurGunlugu\obj\Debug\IskurGunlugu.Migrations.InitialCreate.resources
+C:\Users\erhan.kaya\source\repos\IskurGunlugu\IskurGunlugu\obj\Debug\IskurGunlugu.csproj.GenerateResource.cache
+C:\Users\erhan.kaya\source\repos\IskurGunlugu\IskurGunlugu\obj\Debug\IskurGunlugu.Migrations.mg1.resources
+C:\Users\tevra.kaya\Downloads\IskurGunlugu (3)\IskurGunlugu\IskurGunlugu\bin\IskurGunlugu.dll.config
+C:\Users\tevra.kaya\Downloads\IskurGunlugu (3)\IskurGunlugu\IskurGunlugu\bin\IskurGunlugu.dll
+C:\Users\tevra.kaya\Downloads\IskurGunlugu (3)\IskurGunlugu\IskurGunlugu\bin\IskurGunlugu.pdb
+C:\Users\tevra.kaya\Downloads\IskurGunlugu (3)\IskurGunlugu\IskurGunlugu\bin\roslyn\csc.exe
+C:\Users\tevra.kaya\Downloads\IskurGunlugu (3)\IskurGunlugu\IskurGunlugu\bin\roslyn\csc.exe.config
+C:\Users\tevra.kaya\Downloads\IskurGunlugu (3)\IskurGunlugu\IskurGunlugu\bin\roslyn\csc.rsp
+C:\Users\tevra.kaya\Downloads\IskurGunlugu (3)\IskurGunlugu\IskurGunlugu\bin\roslyn\csi.exe
+C:\Users\tevra.kaya\Downloads\IskurGunlugu (3)\IskurGunlugu\IskurGunlugu\bin\roslyn\csi.exe.config
+C:\Users\tevra.kaya\Downloads\IskurGunlugu (3)\IskurGunlugu\IskurGunlugu\bin\roslyn\csi.rsp
+C:\Users\tevra.kaya\Downloads\IskurGunlugu (3)\IskurGunlugu\IskurGunlugu\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\tevra.kaya\Downloads\IskurGunlugu (3)\IskurGunlugu\IskurGunlugu\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\tevra.kaya\Downloads\IskurGunlugu (3)\IskurGunlugu\IskurGunlugu\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\tevra.kaya\Downloads\IskurGunlugu (3)\IskurGunlugu\IskurGunlugu\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\tevra.kaya\Downloads\IskurGunlugu (3)\IskurGunlugu\IskurGunlugu\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\tevra.kaya\Downloads\IskurGunlugu (3)\IskurGunlugu\IskurGunlugu\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\tevra.kaya\Downloads\IskurGunlugu (3)\IskurGunlugu\IskurGunlugu\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\tevra.kaya\Downloads\IskurGunlugu (3)\IskurGunlugu\IskurGunlugu\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\tevra.kaya\Downloads\IskurGunlugu (3)\IskurGunlugu\IskurGunlugu\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\tevra.kaya\Downloads\IskurGunlugu (3)\IskurGunlugu\IskurGunlugu\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\tevra.kaya\Downloads\IskurGunlugu (3)\IskurGunlugu\IskurGunlugu\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\tevra.kaya\Downloads\IskurGunlugu (3)\IskurGunlugu\IskurGunlugu\bin\roslyn\System.AppContext.dll
+C:\Users\tevra.kaya\Downloads\IskurGunlugu (3)\IskurGunlugu\IskurGunlugu\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\tevra.kaya\Downloads\IskurGunlugu (3)\IskurGunlugu\IskurGunlugu\bin\roslyn\System.Console.dll
+C:\Users\tevra.kaya\Downloads\IskurGunlugu (3)\IskurGunlugu\IskurGunlugu\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\tevra.kaya\Downloads\IskurGunlugu (3)\IskurGunlugu\IskurGunlugu\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\tevra.kaya\Downloads\IskurGunlugu (3)\IskurGunlugu\IskurGunlugu\bin\roslyn\System.IO.Compression.dll
+C:\Users\tevra.kaya\Downloads\IskurGunlugu (3)\IskurGunlugu\IskurGunlugu\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\tevra.kaya\Downloads\IskurGunlugu (3)\IskurGunlugu\IskurGunlugu\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\tevra.kaya\Downloads\IskurGunlugu (3)\IskurGunlugu\IskurGunlugu\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\tevra.kaya\Downloads\IskurGunlugu (3)\IskurGunlugu\IskurGunlugu\bin\roslyn\System.IO.Pipes.dll
+C:\Users\tevra.kaya\Downloads\IskurGunlugu (3)\IskurGunlugu\IskurGunlugu\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\tevra.kaya\Downloads\IskurGunlugu (3)\IskurGunlugu\IskurGunlugu\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\tevra.kaya\Downloads\IskurGunlugu (3)\IskurGunlugu\IskurGunlugu\bin\roslyn\System.Security.Claims.dll
+C:\Users\tevra.kaya\Downloads\IskurGunlugu (3)\IskurGunlugu\IskurGunlugu\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\tevra.kaya\Downloads\IskurGunlugu (3)\IskurGunlugu\IskurGunlugu\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\tevra.kaya\Downloads\IskurGunlugu (3)\IskurGunlugu\IskurGunlugu\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\tevra.kaya\Downloads\IskurGunlugu (3)\IskurGunlugu\IskurGunlugu\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\tevra.kaya\Downloads\IskurGunlugu (3)\IskurGunlugu\IskurGunlugu\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\tevra.kaya\Downloads\IskurGunlugu (3)\IskurGunlugu\IskurGunlugu\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\tevra.kaya\Downloads\IskurGunlugu (3)\IskurGunlugu\IskurGunlugu\bin\roslyn\System.ValueTuple.dll
+C:\Users\tevra.kaya\Downloads\IskurGunlugu (3)\IskurGunlugu\IskurGunlugu\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\tevra.kaya\Downloads\IskurGunlugu (3)\IskurGunlugu\IskurGunlugu\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\tevra.kaya\Downloads\IskurGunlugu (3)\IskurGunlugu\IskurGunlugu\bin\roslyn\System.Xml.XPath.dll
+C:\Users\tevra.kaya\Downloads\IskurGunlugu (3)\IskurGunlugu\IskurGunlugu\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\tevra.kaya\Downloads\IskurGunlugu (3)\IskurGunlugu\IskurGunlugu\bin\roslyn\vbc.exe
+C:\Users\tevra.kaya\Downloads\IskurGunlugu (3)\IskurGunlugu\IskurGunlugu\bin\roslyn\vbc.exe.config
+C:\Users\tevra.kaya\Downloads\IskurGunlugu (3)\IskurGunlugu\IskurGunlugu\bin\roslyn\vbc.rsp
+C:\Users\tevra.kaya\Downloads\IskurGunlugu (3)\IskurGunlugu\IskurGunlugu\bin\roslyn\VBCSCompiler.exe
+C:\Users\tevra.kaya\Downloads\IskurGunlugu (3)\IskurGunlugu\IskurGunlugu\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\tevra.kaya\Downloads\IskurGunlugu (3)\IskurGunlugu\IskurGunlugu\bin\Antlr3.Runtime.dll
+C:\Users\tevra.kaya\Downloads\IskurGunlugu (3)\IskurGunlugu\IskurGunlugu\bin\EntityFramework.dll
+C:\Users\tevra.kaya\Downloads\IskurGunlugu (3)\IskurGunlugu\IskurGunlugu\bin\EntityFramework.SqlServer.dll
+C:\Users\tevra.kaya\Downloads\IskurGunlugu (3)\IskurGunlugu\IskurGunlugu\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\tevra.kaya\Downloads\IskurGunlugu (3)\IskurGunlugu\IskurGunlugu\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\tevra.kaya\Downloads\IskurGunlugu (3)\IskurGunlugu\IskurGunlugu\bin\Newtonsoft.Json.dll
+C:\Users\tevra.kaya\Downloads\IskurGunlugu (3)\IskurGunlugu\IskurGunlugu\bin\System.Web.Helpers.dll
+C:\Users\tevra.kaya\Downloads\IskurGunlugu (3)\IskurGunlugu\IskurGunlugu\bin\System.Web.Mvc.dll
+C:\Users\tevra.kaya\Downloads\IskurGunlugu (3)\IskurGunlugu\IskurGunlugu\bin\System.Web.Optimization.dll
+C:\Users\tevra.kaya\Downloads\IskurGunlugu (3)\IskurGunlugu\IskurGunlugu\bin\System.Web.Razor.dll
+C:\Users\tevra.kaya\Downloads\IskurGunlugu (3)\IskurGunlugu\IskurGunlugu\bin\System.Web.WebPages.Deployment.dll
+C:\Users\tevra.kaya\Downloads\IskurGunlugu (3)\IskurGunlugu\IskurGunlugu\bin\System.Web.WebPages.dll
+C:\Users\tevra.kaya\Downloads\IskurGunlugu (3)\IskurGunlugu\IskurGunlugu\bin\System.Web.WebPages.Razor.dll
+C:\Users\tevra.kaya\Downloads\IskurGunlugu (3)\IskurGunlugu\IskurGunlugu\bin\WebGrease.dll
+C:\Users\tevra.kaya\Downloads\IskurGunlugu (3)\IskurGunlugu\IskurGunlugu\bin\EntityFramework.xml
+C:\Users\tevra.kaya\Downloads\IskurGunlugu (3)\IskurGunlugu\IskurGunlugu\bin\EntityFramework.SqlServer.xml
+C:\Users\tevra.kaya\Downloads\IskurGunlugu (3)\IskurGunlugu\IskurGunlugu\bin\System.Web.Helpers.xml
+C:\Users\tevra.kaya\Downloads\IskurGunlugu (3)\IskurGunlugu\IskurGunlugu\bin\System.Web.Mvc.xml
+C:\Users\tevra.kaya\Downloads\IskurGunlugu (3)\IskurGunlugu\IskurGunlugu\bin\System.Web.Optimization.xml
+C:\Users\tevra.kaya\Downloads\IskurGunlugu (3)\IskurGunlugu\IskurGunlugu\bin\System.Web.Razor.xml
+C:\Users\tevra.kaya\Downloads\IskurGunlugu (3)\IskurGunlugu\IskurGunlugu\bin\System.Web.WebPages.xml
+C:\Users\tevra.kaya\Downloads\IskurGunlugu (3)\IskurGunlugu\IskurGunlugu\bin\System.Web.WebPages.Deployment.xml
+C:\Users\tevra.kaya\Downloads\IskurGunlugu (3)\IskurGunlugu\IskurGunlugu\bin\System.Web.WebPages.Razor.xml
+C:\Users\tevra.kaya\Downloads\IskurGunlugu (3)\IskurGunlugu\IskurGunlugu\bin\Newtonsoft.Json.xml
+C:\Users\tevra.kaya\Downloads\IskurGunlugu (3)\IskurGunlugu\IskurGunlugu\bin\Antlr3.Runtime.pdb
+C:\Users\tevra.kaya\Downloads\IskurGunlugu (3)\IskurGunlugu\IskurGunlugu\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\tevra.kaya\Downloads\IskurGunlugu (3)\IskurGunlugu\IskurGunlugu\obj\Debug\IskurGunlugu.csprojAssemblyReference.cache
+C:\Users\tevra.kaya\Downloads\IskurGunlugu (3)\IskurGunlugu\IskurGunlugu\obj\Debug\IskurGunlugu.Migrations.InitialCreate.resources
+C:\Users\tevra.kaya\Downloads\IskurGunlugu (3)\IskurGunlugu\IskurGunlugu\obj\Debug\IskurGunlugu.Migrations.mg1.resources
+C:\Users\tevra.kaya\Downloads\IskurGunlugu (3)\IskurGunlugu\IskurGunlugu\obj\Debug\IskurGunlugu.csproj.GenerateResource.cache
+C:\Users\tevra.kaya\Downloads\IskurGunlugu (3)\IskurGunlugu\IskurGunlugu\obj\Debug\IskurGunlugu.csproj.CoreCompileInputs.cache
+C:\Users\tevra.kaya\Downloads\IskurGunlugu (3)\IskurGunlugu\IskurGunlugu\obj\Debug\IskurGunlugu.csproj.CopyComplete
+C:\Users\tevra.kaya\Downloads\IskurGunlugu (3)\IskurGunlugu\IskurGunlugu\obj\Debug\IskurGunlugu.dll
+C:\Users\tevra.kaya\Downloads\IskurGunlugu (3)\IskurGunlugu\IskurGunlugu\obj\Debug\IskurGunlugu.pdb
+C:\Users\tevra.kaya\Downloads\IskurGunlugu (3)\IskurGunlugu\IskurGunlugu\obj\Debug\IskurGunlugu.Migrations.mg2.resources

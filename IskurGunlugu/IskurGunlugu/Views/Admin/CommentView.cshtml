@@ -1,0 +1,42 @@
+﻿@model IskurGunlugu.Models.PagesModels.BlogDetailModel
+@{
+    ViewBag.Title = "CommentView";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>@Model.SingleBlogComment.User.Name @Model.SingleBlogComment.User.Surname - @Model.SingleBlogComment.Blog.Title</h2>
+<hr />
+<div class="row">
+    <div class="col-md-6">
+        <table class="table">
+            <tr>
+                <th>Name Surname</th>
+                <td>@Model.SingleBlogComment.User.Name @Model.SingleBlogComment.User.Surname</td>
+            </tr>
+            <tr>
+                <th>Blog Title</th>
+                <td>@Model.SingleBlogComment.Blog.Title</td>
+            </tr>
+            <tr>
+                <th>Comment Date</th>
+                <td>@Model.SingleBlogComment.dateTime</td>
+            </tr>
+            <tr>
+                <th>Comment</th>
+                <td><textarea rows="6" class="form-control" disabled>@Model.SingleBlogComment.Comment</textarea></td>
+            </tr>
+            <tr>
+                <th>Comment Status</th>
+                <td>
+                    <form method="post">
+                        <input class="check-box" data-val="true" id="Status" name="Status" type="checkbox" value="true" checked="@Model.SingleBlogComment.Status">
+                        <input type="hidden" value="@Model.SingleBlogComment.Id" name="Id" id="Id" />
+                        <br /> <br />
+                        <input type="submit" class="btn btn-success btn-sm" value="Post Comment" />
+                    </form>
+                </td>
+            </tr>
+        </table>
+    </div>
+</div>
+

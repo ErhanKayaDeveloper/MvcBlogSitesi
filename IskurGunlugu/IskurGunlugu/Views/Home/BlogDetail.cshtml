@@ -1,0 +1,68 @@
+﻿@model IskurGunlugu.Models.PagesModels.BlogDetailModel
+@{
+    ViewBag.Title = "BlogDetail";
+}
+
+<h2>@Model.SingleBlog.Title</h2>
+<hr />
+<div class="container">
+    <div class="row">
+        <div class="col-6">
+            <img src="~/Content/images/blog/@Model.SingleBlog.Image" width="100%" />
+        </div>
+        <div class="col-6">
+            <h3>@Model.SingleBlog.Title</h3>
+            <div class="col-12">
+                <span style="float:left" class="text-muted">Yazar: <i>@Model.SingleBlog.User.Name @Model.SingleBlog.User.Surname</i></span>
+                <span style="float:right" class="text-muted">Tarih: <i>@Model.SingleBlog.dateTime</i></span>
+            </div>
+            <hr />
+            <p>@Model.SingleBlog.Description</p>
+        </div>
+    </div>
+    <div class="row mt-5">
+        <div class="col-12">
+            <h4>Yorumlar</h4>
+            <hr />
+        </div>
+        @foreach (var comment in Model.Comments)
+        {
+            <div class="col-12 card mb-1">
+                <div class="row">
+                    <div class="col-md-2">
+                        <div class="row">
+                            <div class="col-12 p-3">
+                                <img src='~/Content/images/user/@(String.IsNullOrEmpty(comment.User.Image)?"default-user.jpg":comment.User.Image)' width="80" style="border-radius:50%" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-10">
+                        <b>@comment.User.Name @comment.User.Surname</b>
+                        <span class="text-muted"> Tarih: @comment.dateTime</span>
+                        <hr />
+                        <p>@comment.Comment</p>
+                    </div>
+                </div>
+            </div>
+        }
+        <div class="col-12 card mt-2">
+            <div class="row p-3">
+                <div class="col-12">
+                    <h3>Yorum Yap</h3>
+                    <hr />
+                </div>
+                <div class="col-12">
+                    <form method="post" action="~/Home/BlogComment">
+                        <label>Ad Soyad</label>
+                        <input type="text" class="form-control" />
+                        <label class="control-label mt-2" for="Comment">Yorumuz</label>
+                        <textarea class="form-control" rows="5" name="Comment" id="Comment"></textarea>
+                        <input type="hidden" value="@Model.SingleBlog.Id" name="Id" id="Id" />
+                        <button class="btn btn-primary mt-2" type="submit">Yorumu Göder</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

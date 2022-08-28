@@ -1,0 +1,62 @@
+﻿@model IEnumerable<IskurGunlugu.Models.Category>
+
+@{
+    ViewBag.Title = "Slider";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    int i = 0;
+}
+
+<h2>Slider</h2>
+
+<p>
+    @Html.ActionLink("Create New Category", "CategoryCreate", "Admin", new { area = "" }, new { @class = "btn btn-success" })
+
+</p>
+<table class="table">
+    <tr>
+        <th>
+            No
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Image)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Status)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.IsDelete)
+        </th>
+        <th>Settings</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        i++;
+        <tr>
+            <td>
+                @i
+            </td>
+            <td>
+                <img src="~/Content/images/category/@Html.DisplayFor(modelItem => item.Image)" width="150" />
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+
+            <td>
+                @Html.DisplayFor(modelItem => item.Status)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IsDelete)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id=item.Id}, new { @class = "btn btn-primary" }) |
+                @Html.ActionLink("Delete", "CategoryDelete", new { id = item.Id }, new { @class = "btn btn-danger" })
+            </td>
+        </tr>
+    }
+
+</table>

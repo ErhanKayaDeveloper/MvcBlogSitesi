@@ -1,0 +1,43 @@
+﻿@using IskurGunlugu.Models
+@model List<BlogComment>
+@{
+    ViewBag.Title = "BlogComment";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    int i = 0;
+   
+}
+
+<h2>BlogComment - @ViewBag.BlogTitle - Yorum Sayısı (@Model.Count())</h2>
+<hr />
+<a href="~/Admin/Blog" class="btn btn-success">Back To Blogs</a>
+<table class="table">
+    <thead>
+        <tr>
+            <th>No</th>
+            <th>Comment</th>
+            <th>Date</th>
+            <th>Status</th>
+            <th>Settings</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var comment in Model)
+        {
+            i++;
+
+        <tr>
+            <td>@i</td>
+            <td>@(comment.Comment.Length > 30 ? comment.Comment.Substring(0, 30) : comment.Comment)</td>
+            <td>@comment.dateTime</td>
+            <td><a class="btn @(comment.Status==true?"btn-success":"btn-warning") btn-sm">@comment.Status</a></td>
+           
+            <td>
+                <a class="btn btn-primary" href="~/Admin/CommentView/@comment.Id">View</a>
+                <a class="btn btn-danger" href="~/Admin/CommentDelete/@comment.Id">Delete</a>
+            </td>
+        </tr>
+        }
+
+    </tbody>
+</table>
+

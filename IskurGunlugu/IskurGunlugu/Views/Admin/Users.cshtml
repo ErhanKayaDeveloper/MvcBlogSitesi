@@ -1,0 +1,47 @@
+﻿@using IskurGunlugu.Models.PagesModels
+@model UserRoleModel
+@{
+    ViewBag.Title = "Users";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    int i = 0;
+}
+
+<h2>Users</h2>
+<hr />
+<a href="~/Admin/UserCreate" class="btn btn-success">User Create</a>
+<table class="table">
+    <thead>
+        <tr>
+            <th>No</th>
+            <th>UserName</th>
+            <th>Email</th>
+            <th>Name Surname</th>
+            <th>Role</th>
+            <th>Status</th>
+            <th>Delete</th>
+            <th>Settings</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in Model.UserList)
+        {
+            i++;
+
+            <tr>
+                <td>@i</td>
+                <td>@user.UserName</td>
+                <td>@user.Email</td>
+                <td>@user.Name @user.Surname</td>
+                <td>@user.Role.Name</td>
+                <td><a class="btn @(user.Status==true?"btn-success":"btn-warning") btn-sa">@user.Status</a></td>
+                <td><a class="btn @(user.IsDelete==false?"btn-success":"btn-danger") btn-sa">@user.IsDelete</a></td>
+                <td>
+                    <a class="btn btn-primary" href="~/Admin/UserEdit/@user.Id">Edit</a>
+                    <a class="btn btn-danger" href="~/Admin/UserDelete/@user.Id">Delete</a>
+                </td>
+            </tr>
+        }
+
+    </tbody>
+</table>
+

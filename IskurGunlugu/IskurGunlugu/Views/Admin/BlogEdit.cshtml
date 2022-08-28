@@ -1,0 +1,80 @@
+﻿@model IskurGunlugu.Models.PagesModels.BlogCategoryModel
+
+@{
+    ViewBag.Title = "BlogEdit";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    string blogImage = String.IsNullOrEmpty(Model.SingleBlog.Image) ? "image1.png" : Model.SingleBlog.Image;
+}
+
+<h2>BlogEdit</h2>
+
+@using (Html.BeginForm("BlogEdit", "Admin", FormMethod.Post, new { enctype = "multipart/form-data" })) //<form method="post" action="SliderCreate">
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <h4>Blog</h4>
+        <hr />
+        <img src="~/Content/images/blog/@blogImage" />
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+
+        <div class="form-group">
+            <label for="CategoryId" class="control-label col-md-2">Category</label>
+            <div class="col-md-10">
+                <div class="checkbox">
+                    <select class="form-control" id="CategoryId" name="CategoryId">
+                        <optgroup>
+                            <option value="@Model.SingleBlog.CategoryId">@Model.SingleBlog.Category.Name</option>
+                        </optgroup>
+
+                        @foreach (var category in Model.Category)
+                        {
+                            <option value="@category.Id">@category.Name</option>
+                        }
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-2">Status</label>
+            <div class="col-md-10">
+                <input class="check-box" data-val="true" id="Status" name="Status" type="checkbox" value="true" checked="@Model.SingleBlog.Status">
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-2">Title</label>
+            <div class="col-md-10">
+                <input type="text" name="Title" id="Title" value="@Model.SingleBlog.Title" />
+
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label col-md-2">Description</label>
+            <div class="col-md-10">
+                <input type="text" name="Description" id="Description" value="@Model.SingleBlog.Description" />
+
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-2" for="Image">Image</label>
+            <div class="col-md-10">
+                <input type="file" name="Image" id="Image" class="form-control" />
+            </div>
+        </div>
+        <input type="hidden" value="@Model.SingleBlog.Id" name="Id" id="Id" />
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Edit Blog" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>

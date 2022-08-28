@@ -1,0 +1,67 @@
+﻿@model IskurGunlugu.Models.PagesModels.IndexModel
+
+@{
+    ViewBag.Title = "Blog";
+
+}
+
+<h2>Bloglar</h2>
+<hr />
+<div class="row mt-5">
+    <div class="col-12">
+        <h5>Kategoriler</h5>
+        <hr />
+    </div>
+    <div class="col-12">
+        <div class="row">
+            @foreach (var kategori in Model.Category)
+            {
+                <div class="col-2">
+                    <div class="card">
+                        <img src="~/Content/images/category/@kategori.Image" class="card-img-top" />
+
+                        <div class="card-body">
+                            <a href="~/Home/CategoryDetail/@kategori.Id" >
+                                <b>@kategori.Name</b>
+                                
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            }
+
+
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-12 mt-5 mb-5">
+        <h2>Bloglar</h2>
+        <hr />
+    </div>
+    <div class="col-12">
+        <div class="row">
+            @foreach (var blog in Model.Blog)
+            {
+                string blogImage = String.IsNullOrEmpty(blog.Image) ? "image1.png" : blog.Image;
+                <div class="col-md-4 pl-3 pr-3">
+                    <div class="row">
+                        <img src="~/Content/images/blog/@blogImage" width="100%" />
+                        <h5>@blog.Title</h5>
+                        <div class="col-12">
+                            <span style="float:left" class="text-muted">Yazar: <i>Erhan</i></span>
+                            <span style="float:right" class="text-muted">Tarih: <i>@blog.dateTime</i></span>
+                        </div>
+                        <div class="col-12">
+                            <p>@(blog.Description.Length > 97 ? blog.Description.Substring(0, 97) : blog.Description) ...</p>
+                        </div>
+                        <div class="col-12">
+                            <a class="btn btn-primary" href="~/Home/BlogDetail/@blog.Id">Blog Detayı...</a>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+

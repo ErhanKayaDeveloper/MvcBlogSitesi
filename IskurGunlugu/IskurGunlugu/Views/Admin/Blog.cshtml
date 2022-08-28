@@ -1,0 +1,44 @@
+﻿
+@model IskurGunlugu.Models.PagesModels.BlogCategoryModel
+@{
+    ViewBag.Title = "Blog";
+    int i = 0;
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Blog</h2>
+<hr />
+<a href="~/Admin/BlogCreate" class="btn btn-success">Create Blog</a>
+<table class="table">
+    <thead>
+        <tr>
+            <th>No</th>
+            <th>Image</th>
+            <th>Title</th>
+            <th>Category</th>
+            <th>Status</th>
+            <th>Comments</th>
+            <th>Settings</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var blog in Model.Blog)
+        { i++;
+           
+            <tr>
+                <td>@i</td>
+                <td><img src="~/Content/images/blog/@blog.Image" width="100"/></td>
+                <td>@blog.Title</td>
+                <td>@blog.Category.Name</td>
+               
+                <td><a class="btn @(blog.Status==true?"btn-success":"btn-warning") btn-sm">@blog.Status</a></td>
+                <td><a class="btn btn-warning btn-sm" href="~/Admin/BlogComment/@blog.Id">Blog Commnets</a></td>
+                <td>
+                    <a class="btn btn-primary" href="~/Admin/BlogEdit/@blog.Id">Edit</a>
+                    <a class="btn btn-danger" href="~/Admin/BlogDelete/@blog.Id">Delete</a>
+                </td>
+            </tr>
+        }
+
+    </tbody>
+</table>

@@ -1,0 +1,96 @@
+﻿@model IskurGunlugu.Models.PagesModels.UserRoleModel
+@{
+    ViewBag.Title = "UserEdit";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    string userImage = String.IsNullOrEmpty(Model.SingleUser.Image) ? "image1.png" : Model.SingleUser.Image;
+}
+
+<h2>UserEdit</h2>
+
+@using (Html.BeginForm("UserEdit", "Admin", FormMethod.Post, new { enctype = "multipart/form-data" })) //<form method="post" action="SliderCreate">
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <h4>User</h4>
+        <hr />
+        <img src="~/Content/images/user/@userImage" />
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+
+        <div class="form-group">
+            <label class="control-label col-md-2">IsDelete</label>
+            <div class="col-md-10">
+                <input class="check-box" data-val="true" id="IsDelete" name="IsDelete" type="checkbox" value="true" checked="@Model.SingleUser.Status">
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label col-md-2">Status</label>
+            <div class="col-md-10">
+                <input class="check-box" data-val="true" id="Status" name="Status" type="checkbox" value="true" checked="@Model.SingleUser.Status">
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-2">UserName</label>
+            <div class="col-md-10">
+                <input type="text" name="UserName" id="UserName" value="@Model.SingleUser.UserName" />
+
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label col-md-2">Password</label>
+            <div class="col-md-10">
+                <input type="text" name="Password" id="Password" value="@Model.SingleUser.Password" />
+
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-2">Email</label>
+            <div class="col-md-10">
+                <input type="text" name="Email" id="Email" value="@Model.SingleUser.Email" />
+
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-2">Name</label>
+            <div class="col-md-10">
+                <input type="text" name="Name" id="Name" value="@Model.SingleUser.Name" />
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-2">Surname</label>
+            <div class="col-md-10">
+                <input type="text" name="Surname" id="Surname" value="@Model.SingleUser.Surname" />
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-2">RegisterDate</label>
+            <div class="col-md-10">
+                <input type="text" name="RegisterDate" id="RegisterDate" value="@Model.SingleUser.RegisterDate" />
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-2" for="Image">Image</label>
+            <div class="col-md-10">
+                <input type="file" name="Image" id="Image" class="form-control" />
+            </div>
+        </div>
+        <input type="hidden" value="@Model.SingleUser.Id" name="Id" id="Id" />
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Edit Blog" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
